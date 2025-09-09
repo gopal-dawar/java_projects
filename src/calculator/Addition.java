@@ -30,6 +30,8 @@ public class Addition extends Calculation {
 		n[0] = sum;
 		return n;
 	}
+	
+	
 
 	public int addition(int a, int b) {
 		return a + b;

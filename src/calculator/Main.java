@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		Calculation c; 
-
 		System.out.println("1. Addition");
 		System.out.println("2. Substraction");
 		System.out.println("3. Multiplication");
@@ -48,5 +48,6 @@ public class Main {
 			System.out.println("Exit");
 		}
 
+		sc.close();
 	}
 }
